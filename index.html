@@ -1,20 +1,29 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+
+  
+
+  <script src="includes/script.js"></script>
+  
 
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body> 
   <style>
     .scrolled {    
     background-color: rgb(107 33 168); 
-  }</style>
-    <div class="relative">
+  } 
+  
+  </style>
+    <div class="relative firstHeader" >
         <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover opacity-80">
           <source src="assets/video/homepage_desktop_v2.webm" type="video/mp4">
           </video>
@@ -23,13 +32,13 @@
 
         <div class="relative z-10">
           <!-- Navigation Bar -->
-          <nav class="fixed top-0 left-0 w-full flex items-center justify-between px-16 py-4 bg-transparent">
+          <nav id="navbar" class="fixed top-0 left-0 w-full flex items-center justify-between px-16 py-4 bg-transparent">
             <div>
               <h1 class="text-xl font-bold text-white">EXPENSIA</h1>
             </div>
             <div class="hidden md:block">
               <ul class="flex space-x-4">
-                <li><a href="#" class="text-white font-semibold px-2 hover:text-purple-500">Home</a></li>
+                <li><a href="#" class="text-white font-semibold px-2 hover:text-purple-500" >Home</a></li>
                 <li><a href="#" class="text-white font-semibold px-2 hover:text-purple-500">Services</a></li>
                 <li><a href="#" class="text-white font-semibold px-2 hover:text-purple-500">About Us</a></li>
                 <li><a href="#" class="text-white font-semibold px-2 hover:text-purple-500">Contact</a></li>
@@ -37,8 +46,9 @@
             </div>
           </nav>
           <!-- Main Content -->
-          <header class="text-white py-72 text-center w-screen h-screen"  >
-            <h1 class="text-5xl font-bold">The Easiest way to to manage
+          <header class="text-white text-center flex items-center justify-center h-screen ">
+            <div>
+            <h1 class="text-4xl font-bold">The Easiest way to to manage
                 <br>your personal finances.</h1>
             
             <div class="mt-10">
@@ -47,6 +57,7 @@
             
               <a href="#" class="bg-transparent text-purple-500 outline-purple-500 outline  hover:bg-purple-500 px-7 rounded-xl hover:text-white font-bold py-2 transition duration-300 ml-5">Login</a>
             </div>
+          </div>
           </header>
         </div>
       </div>
@@ -79,7 +90,6 @@
                           <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
                         </svg>
                       </div>
-                      
                       SSL certificates
                     </dt>
                     <dd class="mt-2 text-base leading-7 text-gray-600">Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.</dd>
